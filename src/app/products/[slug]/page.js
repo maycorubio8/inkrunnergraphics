@@ -1,4 +1,3 @@
-import Navbar from '@/components/Navbar'
 import Footer from '@/components/Footer'
 import ProductConfigurator from '@/components/ProductConfigurator'
 import Link from 'next/link'
@@ -48,8 +47,6 @@ export default async function ProductPage({ params }) {
 
   return (
     <div className="min-h-screen bg-gray-50">
-      <Navbar />
-      
       {/* Breadcrumb */}
       <div className="max-w-7xl mx-auto px-4 py-4">
         <Link 

@@ -1,5 +1,4 @@
 import Link from 'next/link'
-import Navbar from '@/components/Navbar'
 import Footer from '@/components/Footer'
 
 const products = [
@@ -63,8 +62,6 @@ const benefits = [
 export default function Home() {
   return (
     <div className="min-h-screen bg-white">
-      <Navbar />
-      
       {/* Hero Section */}
       <section className="relative overflow-hidden bg-gradient-to-b from-blue-50 via-white to-white">
         <div className="max-w-7xl mx-auto px-4 py-20 md:py-32">
